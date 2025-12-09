@@ -10,7 +10,7 @@ class Square:
     Attributes:
         __size(int): The size of square's sizes
     """
-    def __init__(self, size= 0):
+    def __init__(self, size=0):
         if isinstance(size, int):
             self.__size = size
         else:
